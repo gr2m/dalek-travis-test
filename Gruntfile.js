@@ -9,7 +9,7 @@ module.exports = function(grunt) {
 
     dalek: {
       options: {
-        browser: ['firefox']
+        browser: ['chrome']
       },
       src: ['dalek-test.js']
     },

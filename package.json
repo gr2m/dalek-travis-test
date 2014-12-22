@@ -4,7 +4,7 @@
   "description": "Test case for DalekJS & Travis integration",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt"
   },
   "repository": {
     "type": "git",
@@ -17,10 +17,11 @@
   },
   "homepage": "https://github.com/gr2m/dalek-travis-test",
   "devDependencies": {
-    "grunt": "~0.4.5",
-    "grunt-dalek": "~0.2.0",
+    "dalek-browser-chrome": "0.0.11",
     "dalek-browser-firefox": "0.0.6",
-    "load-grunt-tasks": "~0.6.0",
-    "dalekjs": "0.0.8"
+    "dalekjs": "0.0.9",
+    "grunt": "^0.4.5",
+    "grunt-dalek": "^0.2.0",
+    "load-grunt-tasks": "~0.6.0"
   }
 }
