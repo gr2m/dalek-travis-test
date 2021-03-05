@@ -6,16 +6,9 @@
   "scripts": {
     "test": "grunt"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:gr2m/dalek-travis-test.git"
-  },
+  "repository": "github:gr2m/dalek-travis-test",
   "author": "Gregor Martynus",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gr2m/dalek-travis-test/issues"
-  },
-  "homepage": "https://github.com/gr2m/dalek-travis-test",
   "devDependencies": {
     "dalek-browser-chrome": "0.0.11",
     "dalek-browser-firefox": "0.0.6",
